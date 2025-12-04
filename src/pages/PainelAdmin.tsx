@@ -79,12 +79,12 @@ export default function PainelAdmin() {
 
   const handleLogin = async (username: string, password: string) => {
     // Validar credenciais localmente primeiro
-    if (username !== 'admin' || password !== 'admin@2024') {
+    if (username !== 'admin' || password !== 'flordemaio40') {
       throw new Error('Credenciais inválidas');
     }
 
     // Usar o token Bearer fornecido pelo backend
-    const token = 'admin_token_secreto_12345';
+    const token = '1986';
     localStorage.setItem('adminToken', token);
 
     try {
